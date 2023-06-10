@@ -6,7 +6,6 @@
 
 html {
     color: rgb(57, 56, 56);
-    font-family: 'Josefin Sans', sans-serif;
     line-height: 1.5rem;
 
 }
@@ -14,15 +13,42 @@ html {
 body {
     padding: 3rem 3.5rem;
     background: linear-gradient(rgb(180, 177, 177), rgb(236, 205, 210));
+    
+}
+
+.resume-page {
+    background-color: whitesmoke;
+    padding: 2rem;
+    max-width: 1050px;
+    margin: auto;
+}
+
+.twocol{
+    padding-right: 2rem;
+}
+
+.twocol2{
+    padding-left: 2rem;
 }
 
 h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300 bold;
     font-size: 2rem;
     text-transform: uppercase;
 }
 
+.profile > p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(139, 137, 137);
+    margin-bottom: 1rem;
+    font-size: 1.35rem;
+}
+
 h2 {
-    font-size: 1.1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 500;
     text-transform: uppercase;
     border-top: 1px solid #888;
     border-bottom: 1px solid #888;
@@ -32,7 +58,9 @@ h2 {
 }
 
 h3 {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 1rem;
+    font-weight: 700 lighter;
     text-transform: uppercase;
     color: salmon;
     margin-top: .7rem;
@@ -40,14 +68,22 @@ h3 {
 }
 
 h4 {
+    font-family: 'Josefin Sans', sans-serif;
     margin-top: .6rem;
-    font-size: 1rem;
+    font-size: 1.03rem;
     color:  rgb(103, 100, 100);
 }
 
+h1, h3, h4{
+    margin-bottom: 0;
+}
+
 p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
     line-height: 1.5;
     color: black;
+    margin-bottom: 0;
 }
 
 section + section {
@@ -58,13 +94,15 @@ section + section {
 
 a {
     text-decoration: none;
-    color: inherit;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
     color: rgb(82, 143, 230);
     
 }
 
 ul {
     list-style: none;
+    padding-left: 0rem;
 }
 
 .profile {
@@ -73,14 +111,8 @@ ul {
 
 .profile img {
     border-radius: 9999px;
-    width: 15rem;
-    height: 15rem;
-}
-
-.profile p {
-    color: rgb(139, 137, 137);
-    margin-bottom: 1rem;
-    font-size: 1.25rem;
+    width: 13rem;
+    height: 13rem;
 }
 
 .contact ul {
@@ -94,16 +126,18 @@ ul {
     border-bottom: 1px solid #888;
     color: rgb(120, 118, 118);
     font-size: 1rem;
+    font-weight: 300;
 }
 
-.skills > ul{
+/* .skills > ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
-}
+} */
 
 .bullets > li {
     list-style: disc;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .socials > ul{
@@ -117,6 +151,7 @@ ul {
 }
 
 .timeline .event {
+    font-family: 'Josefin Sans', sans-serif;
     display: grid;
     grid-template-columns: 5ch 1fr;
 }
@@ -127,10 +162,18 @@ ul {
     margin-left: 1rem;
 }
 
-.projects > ul{
+.duration{
+    font-weight: 300;
+}
+
+/* .projects > ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
+} */
+
+.links{
+    padding-right: 3rem;
 }
 
 .content > h3 + p {
@@ -139,15 +182,7 @@ ul {
 
 }
 
-.resume-page {
-    display: grid;
-    grid-template-columns: 45% 1fr;
-    grid-gap: 4rem;
-    background-color: whitesmoke;
-    padding: 2rem;
-    max-width: 1050px;
-    margin: auto;
-}
+
 
 .progress-bar{
     width: 90%;
@@ -173,11 +208,11 @@ ul {
 }
 
 .bs-progress {
-    width: 85%;
+    width: 75%;
 }
 
 .js-progress {
-    width: 75%;
+    width: 20%;
 }
 
 .cpp-progress {
@@ -196,10 +231,15 @@ ul {
     width: 75%;
 }
 
-.react-progress {
-    width: 25%;
+.art-progress {
+    width: 90%;
 }
 
-.dbms-progress {
-    width: 65%;
+@media (max-width:1028px){
+    body {
+        padding: 2rem 2rem;
+        background: linear-gradient(rgb(180, 177, 177), rgb(236, 205, 210));
+        
+    }
 }
+
