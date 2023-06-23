@@ -212,7 +212,7 @@ ul {
 }
 
 .js-progress {
-    width: 20%;
+    width: 70%;
 }
 
 .cpp-progress {
@@ -220,19 +220,31 @@ ul {
 }
 
 .java-progress {
-    width: 50%;
+    width: 65%;
 }
 
 .dsa-progress {
-    width: 30%;
+    width: 50%;
 }
 
-.aps-progress {
+.dbms-progress {
     width: 75%;
 }
 
-.art-progress {
-    width: 90%;
+.uiux-progress {
+    width: 50%;
+}
+
+.jq-progress {
+    width: 50%;
+}
+
+.njs-progress {
+    width: 50%;
+}
+
+.react-progress {
+    width: 50%;
 }
 
 @media (max-width:1028px){
