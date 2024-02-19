@@ -160,6 +160,10 @@ ul {
     font-weight: 300;
 }
 
+.experience .timeline .content {
+    margin-left: 2rem;
+}
+
 .links{
     padding-right: 3rem;
 }
