@@ -110,9 +110,9 @@ ul {
 }
 
 .profile img {
-    border-radius: 9999px;
-    width: 13rem;
-    height: 13rem;
+    border-radius: 999px;
+    width: 15rem;
+    height: 15rem;
 }
 
 .contact ul {
@@ -212,19 +212,19 @@ ul {
 }
 
 .js-progress {
-    width: 70%;
+    width: 90%;
 }
 
 .cpp-progress {
-    width: 50%;
+    width: 80%;
 }
 
 .java-progress {
-    width: 65%;
+    width: 75%;
 }
 
 .dsa-progress {
-    width: 50%;
+    width: 60%;
 }
 
 .dbms-progress {
@@ -232,7 +232,15 @@ ul {
 }
 
 .uiux-progress {
-    width: 50%;
+    width: 60%;
+}
+
+.cloud-progress{
+    width: 75%;
+}
+
+.r-progress{
+    width: 65%;
 }
 
 .jq-progress {
@@ -240,15 +248,19 @@ ul {
 }
 
 .njs-progress {
-    width: 65%;
+    width: 80%;
 }
 
 .react-progress {
-    width: 50%;
+    width: 85%;
 }
 
 .php-progress {
     width: 65%;
+}
+
+.ejs-progress{
+    width: 80%;
 }
 
 @media (max-width:1028px){
